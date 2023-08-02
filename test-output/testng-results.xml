@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-27T13:05:22 IST" name="Suite" finished-at="2023-06-27T13:05:58 IST" duration-ms="36422">
+    <groups>
+    </groups>
+    <test started-at="2023-06-27T13:05:22 IST" name="TestOnChrome" finished-at="2023-06-27T13:05:58 IST" duration-ms="36422">
+      <class name="com.selenium.automation.testng.HandleAlertsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:22 IST" name="openBrowser" finished-at="2023-06-27T13:05:27 IST" duration-ms="5067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="navigateToURL()[pri:1, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:27 IST" name="navigateToURL" finished-at="2023-06-27T13:05:33 IST" duration-ms="5344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="hoverOverMenu()[pri:2, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:33 IST" name="hoverOverMenu" finished-at="2023-06-27T13:05:33 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverOverMenu -->
+        <test-method signature="selectAlertsOption()[pri:3, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:33 IST" name="selectAlertsOption" finished-at="2023-06-27T13:05:40 IST" duration-ms="6713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAlertsOption -->
+        <test-method signature="handleSimpleAlert()[pri:4, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:40 IST" name="handleSimpleAlert" finished-at="2023-06-27T13:05:44 IST" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleSimpleAlert -->
+        <test-method signature="handleConfirmationAlert()[pri:5, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:44 IST" name="handleConfirmationAlert" finished-at="2023-06-27T13:05:49 IST" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleConfirmationAlert -->
+        <test-method signature="handlePromptAlert()[pri:6, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:49 IST" name="handlePromptAlert" finished-at="2023-06-27T13:05:56 IST" duration-ms="7317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlePromptAlert -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.selenium.automation.testng.HandleAlertsTest@434a63ab]" started-at="2023-06-27T13:05:56 IST" name="closeBrowser" finished-at="2023-06-27T13:05:58 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.automation.testng.HandleAlertsTest -->
+    </test> <!-- TestOnChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
