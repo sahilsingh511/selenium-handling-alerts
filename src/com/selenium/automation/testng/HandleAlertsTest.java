@@ -21,16 +21,13 @@ public class HandleAlertsTest {
 	public void openBrowser(String browserName) {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Genius\\eclipse-workspace\\MiniProject\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver",
-					"C:\\Users\\Genius\\eclipse-workspace\\MiniProject\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver",
-					"C:\\Users\\Genius\\eclipse-workspace\\MiniProject\\drivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 
